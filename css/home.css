@@ -85,3 +85,39 @@ header nav .nav-left .register-login-btn a {
 .slider .buttons i:hover {
   color: #ffffff80;
 }
+
+/* New Products */
+
+.new-products {
+  padding: 20px 10px;
+  font-size: 1em;
+}
+
+.new-products .row > div {
+  margin-top: 30px;
+}
+
+.new-products .title {
+  padding: 0 10px;
+  padding-top: 30px;
+}
+
+.new-products .title span {
+  font-weight: bold;
+  font-size: 1.35em;
+  border-bottom: 2px solid #ccc;
+}
+
+.new-products .shopping-card {
+  text-align: center;
+  box-shadow: 0 2px 8px 0 #666;
+  margin: 0 15px;
+  border-radius: 5px;
+  padding: 10px;
+  height: 100%;
+  transition: 0.2s;
+}
+
+.new-products .shopping-card:hover {
+  box-shadow: 0 4px 16px 1px #666;
+}
