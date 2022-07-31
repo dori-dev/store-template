@@ -1,0 +1,103 @@
+body {
+  background: #2c3e50;
+  background: -webkit-linear-gradient(to left, #34495e, #7f8c8d);
+  background: linear-gradient(to left, #34495e, #7f8c8d);
+}
+
+.login-container {
+  height: 100vh;
+  /* overflow: hidden; */
+  padding: 30px;
+}
+
+.login-box {
+  font-size: 0.8em;
+  box-shadow: -1px -1px 10px 2px #0000004d;
+  border-radius: 15px;
+  background-color: #ffffff1a;
+  padding: 25px 35px;
+  margin: 20px 30px;
+}
+
+.login-box form {
+}
+
+.login-box form .input-group {
+  margin: 20px 0;
+}
+
+.login-box form .input-group label {
+  display: block;
+  color: #eee;
+  font-size: 1.1em;
+}
+
+.login-box form .input-group input {
+  width: 100%;
+  border: 0;
+  border-radius: 12px;
+  font-size: 1.1em;
+  background: none;
+  border: 1px solid #eee;
+  margin-top: 5px;
+  padding: 5px 15px;
+  color: #eee;
+}
+
+.login-box form .input-group input:focus {
+  outline: 0;
+}
+
+.login-box .do-you-have {
+  color: #eee;
+  text-align: center;
+}
+
+.login-box .do-you-have a {
+  color: #55efc4;
+}
+
+.login-box .do-you-have a:hover {
+  color: #4ad3ac;
+}
+
+.login-box .submit-btn {
+  text-align: center;
+}
+
+.login-box .submit-btn button {
+  line-height: 1.35em;
+  border: 0;
+  background-color: #00b894;
+  border-radius: 7px;
+  padding: 0 20px 5px 20px;
+  color: #fff;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.login-box .submit-btn button:hover {
+  background-color: #00a281;
+}
+
+.login-box .social-auth {
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid #95a5a6;
+  margin: 30px 30px 0 30px;
+  padding-top: 20px;
+}
+
+.login-box .social-auth a img {
+  width: 3.5em;
+}
+
+.login-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-image img {
+  width: 100%;
+}
