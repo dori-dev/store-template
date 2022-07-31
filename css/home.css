@@ -33,3 +33,55 @@ header nav .nav-left .register-login-btn {
 header nav .nav-left .register-login-btn a {
   margin-right: 12px;
 }
+
+/* Slider */
+
+.slider {
+  position: relative;
+  font-size: 1em;
+}
+
+.slider .slides .item {
+  position: relative;
+  display: none;
+}
+
+.slider .slides .item.active {
+  display: block;
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  animation-duration: 1.5s;
+}
+
+.slider .slides .item img {
+  width: 100%;
+}
+
+.slider .slides .item span {
+  text-shadow: 1px 0 0 #fff, -1px 0 0 #fff, 0 1px 0 #fff, 0 -1px 0 #fff,
+    0.5px 0.5px #fff, -0.5px -0.5px 0 #fff, 0.5px -0.5px 0 #fff,
+    -0.5px 0.5px 0 #fff;
+  position: absolute;
+  color: #000;
+  z-index: 1;
+  right: 10%;
+  top: 40%;
+  font-size: 1.5em;
+}
+
+.slider .buttons {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  z-index: 1;
+}
+
+.slider .buttons i {
+  color: #ffffff66;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.slider .buttons i:hover {
+  color: #ffffff80;
+}
