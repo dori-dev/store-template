@@ -365,3 +365,77 @@ header nav .nav-left .register-login-btn a {
 .draggable-list .shopping-card:hover {
   box-shadow: 0 4px 14px 1px #666;
 }
+
+.owl-nav {
+  display: none;
+}
+
+/* Footer */
+
+footer {
+  background-color: #636e72;
+  font-size: 1em;
+}
+
+footer .right {
+  padding: 30px 40px;
+}
+
+footer .right .title {
+  padding: 10px 0;
+  color: #eee;
+  font-size: 1.2em;
+}
+
+footer .right .description {
+  color: #eeee;
+  line-height: 1.42em;
+  font-size: 0.98em;
+}
+
+footer .left {
+  padding: 30px 40px;
+}
+
+footer .left .title {
+  padding: 10px 0;
+  color: #eee;
+  font-size: 1.2em;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+footer .left .socials .line1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .left .socials .line2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .left .socials a {
+  margin: 0 15px;
+  margin-bottom: 10px;
+}
+
+footer .left .socials a img {
+  color: #eee;
+  width: 2.6em;
+}
+
+footer .bottom {
+  background-color: #2d3436;
+  color: #ddd;
+  text-align: center;
+  padding: 12px;
+}
+
+footer .bottom i {
+  color: #eeee;
+  font-size: 0.95em;
+  padding: 0 7px;
+}
