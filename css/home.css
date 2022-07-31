@@ -328,3 +328,40 @@ header nav .nav-left .register-login-btn a {
     display: none;
   }
 }
+
+/* Draggable Product List */
+
+.draggable-list .title {
+  padding: 15px 10px;
+  padding-top: 30px;
+}
+
+.draggable-list .title span {
+  font-weight: bold;
+  font-size: 1.35em;
+  border-bottom: 2px solid #ccc;
+}
+
+.draggable-list img {
+  width: 70% !important;
+  margin: auto;
+}
+
+.draggable-list {
+  padding: 20px 10px;
+  font-size: 1em;
+}
+
+.draggable-list .shopping-card {
+  text-align: center;
+  box-shadow: 0 2px 8px 0 #666;
+  margin: 20px 15px;
+  border-radius: 5px;
+  padding: 10px;
+  height: 100%;
+  transition: 0.2s;
+}
+
+.draggable-list .shopping-card:hover {
+  box-shadow: 0 4px 14px 1px #666;
+}
