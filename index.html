@@ -37,6 +37,35 @@
           </div>
         </div>
       </nav>
+      <section class="slider">
+        <div class="slides">
+          <div class="item active" id="slide1">
+            <img src="imgs/s1.jpg" alt="" />
+            <span>آهنگ ها رو زنده تر از اون چیزی که هستن گوش بده!</span>
+          </div>
+          <div class="item exit" id="slide2">
+            <img src="imgs/s2.jpg" alt="" />
+            <span>
+              کیفیت صدایی که همیشه
+              <br />
+              دنبالش بودی اینجاست
+            </span>
+          </div>
+          <div class="item" id="slide3">
+            <img src="imgs/s3.jpg" alt="" />
+            <span>رویا هاتو با صدای بلند گوش بده</span>
+          </div>
+        </div>
+        <div class="buttons">
+          <i onclick="setSlide('slide1', 1, true)" class="fa-solid fa-circle">
+          </i>
+          <i onclick="setSlide('slide2', 2, true)" class="fa-solid fa-circle">
+          </i>
+          <i onclick="setSlide('slide3', 3, true)" class="fa-solid fa-circle">
+          </i>
+        </div>
+      </section>
+    </header>
     <script src="js/jquery.min.js"></script>
     <script src="js/owl.carousel.js"></script>
     <script src="js/slider.js"></script>
