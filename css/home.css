@@ -217,3 +217,114 @@ header nav .nav-left .register-login-btn a {
   align-items: center;
   color: #fff;
 }
+
+/* Super Offer */
+
+.super-offer {
+  padding: 20px 10px;
+  font-size: 1em;
+}
+
+.super-offer .title {
+  padding: 20px 10px;
+  padding-top: 40px;
+}
+
+.super-offer .title span {
+  font-weight: bold;
+  font-size: 1.35em;
+  border-bottom: 2px solid #ccc;
+}
+
+.super-offer-box {
+  text-align: center;
+  box-shadow: 0 2px 8px 0 #666;
+  border-radius: 5px;
+  margin: 5px 14px;
+}
+
+.super-offer-box > .title {
+  background-color: #e74c3c;
+  color: #fff;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 8px 30px;
+  display: inline-block;
+}
+
+.super-offer-box .body .image-container {
+  text-align: center;
+  padding: 30px;
+}
+
+.super-offer-box .body .image-container img {
+  max-width: 100%;
+}
+
+.super-offer-box .body .specification {
+  padding: 30px 5px;
+}
+
+.super-offer-box .body .specification .price-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.super-offer-box .body .specification .price-row .off-price {
+  margin-left: 35px;
+  color: #444;
+  text-decoration: none;
+  position: relative;
+  font-size: 1.2em;
+}
+
+.super-offer-box .body .specification .price-row .off-price::before {
+  content: "";
+  width: 100%;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  border-bottom: 1px solid #555;
+}
+
+.super-offer-box .body .specification .price-row .price {
+  font-size: 1.2em;
+}
+
+.super-offer-box .body .specification .title {
+  margin: 0 0 20px 0;
+  font-weight: bold;
+  font-size: 1.4em;
+}
+
+.super-offer-box .body .specification .counter-down {
+  border-top: 1px solid #ccc;
+  margin: 10px 40px;
+  padding-top: 20px;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.super-offer-box .body .specification .remaining-time {
+  color: #555;
+  font-size: 0.9em;
+}
+
+.super-offer .banner {
+  text-align: center;
+  padding: 0 5px;
+}
+
+.super-offer .banner img {
+  border-radius: 5px;
+  box-shadow: 0 2px 8px 0 #666;
+  max-width: 80%;
+  height: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  .super-offer .banner {
+    display: none;
+  }
+}
