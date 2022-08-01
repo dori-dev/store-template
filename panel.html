@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/fontawesome.css" />
+    <link rel="stylesheet" href="css/flexboxgrid.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/panel.css" />
+    <link rel="shortcut icon" href="imgs/favicon.ico" type="image/x-icon" />
+    <title>پنل ادمین</title>
+  </head>
+  <body>
+    <div id="panel" class="row">
+      <div id="right" class="col-lg-2 col-md-2">
+        <div class="menu">
+          <div class="user-info">
+            <div class="image-name">
+              <img src="imgs/profile.png" alt="ICON" />
+              <span class="name">محمد دری</span>
+              <i onclick="toggleUserDetails()" class="fa-solid fa-angle-down">
+              </i>
+            </div>
+            <div class="details">
+              <div class="item">
+                <span class="title">سطح دسترسی</span>
+                <span class="value">ادمین</span>
+              </div>
+              <div class="item">
+                <span class="title">وضعیت</span>
+                <span class="value">آنلاین</span>
+              </div>
+            </div>
+          </div>
+          <div class="menu-buttons">
+            <a href="" class="item">
+              <i class="fa-solid fa-cubes"></i>
+              <span>محصولات</span>
+            </a>
+            <a href="" class="item active">
+              <i class="fa-solid fa-clipboard-list"></i>
+              <span>سفارش ها</span>
+            </a>
+            <a href="" class="item">
+              <i class="fa-solid fa-chart-column"></i>
+              <span>گزارش ها</span>
+            </a>
+            <a href="" class="item">
+              <i class="fa-solid fa-headset"></i>
+              <span>پشتیبانی</span>
+            </a>
+            <a href="" class="item">
+              <i class="fa-solid fa-users"></i>
+              <span>کابر ها</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div id="left" class="col-lg-10 col-md-10">
+        <div class="main">
+          <header>
+            <nav>
+              <div class="right">
+                <i onclick="togglePanel()" class="fa-solid fa-bars"></i>
+                <div class="search">
+                  <input type="text" name="" id="" />
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+              </div>
+              <div class="left">
+                <a href="">
+                  <i class="fa-solid fa-bell"></i>
+                </a>
+                <a href="">
+                  <i class="fa-solid fa-gear"></i>
+                </a>
+                <a href="">
+                  <i class="fa-solid fa-power-off"></i>
+                </a>
+              </div>
+            </nav>
+            <div class="bottom">
+              <h3>آخرین ورود ۶ روز پیش</h3>
+              <a href="" class="lang-btn">فارسی</a>
+            </div>
+          </header>
+          <div class="holder">
+            <div class="row">
+              <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                <div class="right">
+                  <i class="fa-solid fa-clipboard-check"></i>
+                </div>
+                <div class="left">
+                  <span class="title">تکمیل انبار</span>
+                  <span class="value">۴۰۰</span>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                <div class="right">
+                  <i class="fa-solid fa-cube"></i>
+                </div>
+                <div class="left">
+                  <span class="title">محصولات</span>
+                  <span class="value">۷۵۳</span>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                <div class="right">
+                  <i class="fa-solid fa-truck"></i>
+                </div>
+                <div class="left">
+                  <span class="title">تحویل پست</span>
+                  <span class="value">۱۳۸</span>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                <div class="right">
+                  <i class="fa-solid fa-dollar-sign"></i>
+                </div>
+                <div class="left">
+                  <span class="title">درآمد</span>
+                  <span class="value">۲۰۰,۰۰۰,۰۰۰</span>
+                </div>
+              </div>
+            </div>
+            <div class="revenue-box">
+              <div class="head">
+                <div class="right">درآمد</div>
+                <div class="left">
+                  <i class="fa-solid fa-gear"></i>
+                  <i class="fa-solid fa-rotate-right"></i>
+                </div>
+              </div>
+              <div class="content">
+                <div
+                  class="chart-container"
+                  style="position: relative; height: 80vh; width: 80vw"
+                >
+                  <canvas id="revenueChart"></canvas>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/chart.js"></script>
+    <script src="js/panel.js"></script>
+  </body>
+</html>
