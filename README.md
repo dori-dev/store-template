@@ -13,8 +13,8 @@ and `login.html` for login page & `panel.html` for user panel.
 
 ## Links
 
-Project Link: [dori-dev.github.io/store-template](https://dori-dev.github.io/store-template/)
-Login Page: [dori-dev.github.io/store-template/login.html](https://dori-dev.github.io/store-template/login.html)
+Project Link: [dori-dev.github.io/store-template](https://dori-dev.github.io/store-template/)<br>
+Login Page: [dori-dev.github.io/store-template/login.html](https://dori-dev.github.io/store-template/login.html)<br>
 Panel Page: [dori-dev.github.io/store-template/panel.html](https://dori-dev.github.io/store-template/panel.html)
 
 Download Source Code: [Click Here](https://github.com/dori-dev/store-template/archive/refs/heads/master.zip)
