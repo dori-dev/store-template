@@ -6,7 +6,6 @@ body {
 
 .login-container {
   height: 100vh;
-  /* overflow: hidden; */
   padding: 30px;
 }
 
@@ -17,9 +16,6 @@ body {
   background-color: #ffffff1a;
   padding: 25px 35px;
   margin: 20px 30px;
-}
-
-.login-box form {
 }
 
 .login-box form .input-group {
@@ -96,6 +92,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100%;
 }
 
 .login-image img {
